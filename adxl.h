@@ -27,6 +27,7 @@ static int ADXLREG_DATA[] = {ADXLREG_DATAX0,ADXLREG_DATAX1,ADXLREG_DATAY0,ADXLRE
 #define ADXLREG_VAL4         0x0F
 
 #define ADXL345_ADDRESS      0x53
+
 static int ADXL345_ZERO[3] = {-9,0,0};
 
 void ADXL_write_reg(byte reg, byte data);
